@@ -44,13 +44,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
     }
     
-//    func textFieldShouldReturn(textField: UITextField) -> Bool {
-//        
-//        performSegueWithIdentifier("next", sender: self)
-//        
-//        return true
-//        
-//    }
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        
+        performSegueWithIdentifier("next", sender: self)
+        
+        return true
+        
+    }
     
     
     override func didReceiveMemoryWarning() {

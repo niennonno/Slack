@@ -17,6 +17,7 @@
 		7332FA171C71A810005EFAF9 /* SlackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7332FA161C71A810005EFAF9 /* SlackUITests.swift */; };
 		738868E21C72F63400988F2D /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738868E11C72F63400988F2D /* EmailViewController.swift */; };
 		73C98B061C71BEE7007EF49C /* slack Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 73C98B051C71BEE7007EF49C /* slack Icon.png */; };
+		73D60BD81C730AEA006D2D08 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D60BD71C730AEA006D2D08 /* SignInViewController.swift */; };
 		73D9CBD51C71EAF1004AF848 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D9CBD21C71EAF1004AF848 /* 1.png */; };
 		73D9CBD61C71EAF1004AF848 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D9CBD31C71EAF1004AF848 /* 2.png */; };
 		73D9CBD71C71EAF1004AF848 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 73D9CBD41C71EAF1004AF848 /* 3.png */; };
@@ -57,6 +58,7 @@
 		7332FA181C71A810005EFAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		738868E11C72F63400988F2D /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		73C98B051C71BEE7007EF49C /* slack Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slack Icon.png"; sourceTree = "<group>"; };
+		73D60BD71C730AEA006D2D08 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		73D9CBD21C71EAF1004AF848 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		73D9CBD31C71EAF1004AF848 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		73D9CBD41C71EAF1004AF848 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				7332F9F51C71A810005EFAF9 /* ViewController.swift */,
+				73D60BD71C730AEA006D2D08 /* SignInViewController.swift */,
 				73D9CBD81C71EDC8004AF848 /* OnboardingViewController.swift */,
 				738868E11C72F63400988F2D /* EmailViewController.swift */,
 			);
@@ -315,6 +318,7 @@
 			files = (
 				7332F9F61C71A810005EFAF9 /* ViewController.swift in Sources */,
 				7332F9F41C71A810005EFAF9 /* AppDelegate.swift in Sources */,
+				73D60BD81C730AEA006D2D08 /* SignInViewController.swift in Sources */,
 				7332F9FC1C71A810005EFAF9 /* Slack.xcdatamodeld in Sources */,
 				73D9CBD91C71EDC8004AF848 /* OnboardingViewController.swift in Sources */,
 				738868E21C72F63400988F2D /* EmailViewController.swift in Sources */,
