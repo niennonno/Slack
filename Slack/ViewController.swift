@@ -24,13 +24,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         username.leftView = paddingView
         
         username.delegate = self
-        
-        let text = NSAttributedString()
-        text
-        
-        let slackLabel = UILabel(frame: CGRectMake(0,0,300,self.username.frame.height))
-        slackLabel.text = ".slack.com"
-        
 //        username.rightView = slackLabel
         username.leftViewMode = UITextFieldViewMode.Always
     
@@ -50,20 +43,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
         username.layer.masksToBounds = true
         
     }
-
-    func textFieldDidBeginEditing(textField: UITextField) {
-        
-    textField.text = textField.text! + ".slack.com"    
-        
-    }
     
-    func textFieldShouldReturn(textField: UITextField) -> Bool {
-        
-        performSegueWithIdentifier("next", sender: self)
-        
-        return true
-        
-    }
+//    func textFieldShouldReturn(textField: UITextField) -> Bool {
+//        
+//        performSegueWithIdentifier("next", sender: self)
+//        
+//        return true
+//        
+//    }
     
     
     override func didReceiveMemoryWarning() {
