@@ -9,6 +9,9 @@
 import UIKit
 import QuartzCore
 
+
+var teamname = String()
+
 class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var username: UITextField!
@@ -18,6 +21,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
         UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.LightContent
+        
         username.layer.sublayerTransform = CATransform3DMakeTranslation(5, 0, 0);
     
         let paddingView = UIView(frame: CGRectMake(0, 0, 15, self.username.frame.height))
@@ -46,8 +50,13 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         
-        performSegueWithIdentifier("next", sender: self)
+        teamname = username.text!
         
+        if teamname != "" {
+        
+            performSegueWithIdentifier("next", sender: self)
+        
+        }
         return true
         
     }
